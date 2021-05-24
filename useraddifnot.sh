@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author : Ghansham Mahajan
+# Use : Create User if not exist.
 
 user="$(cat /etc/passwd | grep 'bash' | cut -d: -f1 | grep -i 'ghansham')"
 
